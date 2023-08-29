@@ -1,0 +1,10 @@
+{
+  "name": "dopaminator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "chrome-types": "^0.1.228",
+    "typescript": "^5.2.2"
+  }
+}
