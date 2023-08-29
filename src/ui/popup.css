@@ -6,6 +6,15 @@ body {
 .domains {
   display: flex;
   flex-direction: column;
+
+  #list-domain {
+    list-style-type: none;
+
+    .list-item {
+      padding: 0px;
+      background-color: red;
+    }
+  }
 }
 
 .header {

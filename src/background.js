@@ -3,7 +3,9 @@ chrome.runtime.onInstalled.addListener(function () {
         text: "OFF",
     });
 });
+
 chrome.webNavigation.onBeforeNavigate.addListener(function (data) {
-    var url = data.url;
-    console.log(url);
+    if (data) {
+        console.log(data.url)
+    }
 });
