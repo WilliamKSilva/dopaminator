@@ -6,13 +6,39 @@ body {
 .domains {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .new-domain {
+      display: flex;
+      flex-direction: column;
+      padding-top: 1rem;
+  
+      .domain-form {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+      }
+    }
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+  }
 
   #list-domain {
     list-style-type: none;
 
     .list-item {
       padding: 0px;
-      background-color: red;
     }
   }
 }

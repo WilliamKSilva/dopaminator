@@ -4,11 +4,11 @@
   "description": "Extension to limit access to specific domains",
   "version": "1.0",
   "action": {
-    "default_popup": "./ui/popup.html",
+    "default_popup": "./src/ui/popup.html",
     "default_icon": "./assets/globe.png"
   },
   "background": {
-    "service_worker": "./background.js"
+    "service_worker": "./src/background.js"
   },
   "permissions": ["scripting", "storage", "webNavigation"]
 }

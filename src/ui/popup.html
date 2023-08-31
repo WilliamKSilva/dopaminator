@@ -8,13 +8,26 @@
     <h1>Dopaminator</h1>
     <div class="domains">
       <section class="header">
-        <h3>Seus dominios:</h3>
-        <button id="new-domain">Novo dominio +</button>
+        <div class="new-domain">
+          <div id="domain-form">
+            <input
+              required
+              id="name-domain"
+              placeholder="Digite o nome do dominio..."
+            />
+            <div>
+              <input required id="time-domain" type="time" />
+              <button type="submit" id="new-domain-button">Salvar</button>
+            </div>
+          </div>
+          <span>Ex: www.youtube.com</span>
+        </div>
       </section>
-      <li class="list-domain" id="list-domain">
-
-      </li>
+      <div class="list">
+        <h3>Seus dominios bloqueados:</h3>
+        <li class="list-domain" id="list-domain"></li>
+      </div>
     </div>
-    <script src="./popup.js"></script>
+    <script src="../../dist/popup.js"></script>
   </body>
 </html>
